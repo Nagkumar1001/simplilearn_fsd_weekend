@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <style>
+        body{
+            background-color: burlywood;
+            
+
+        }
+
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            color: blue;
+            text-align: center;
+
+        }
+        .container{
+            width: 500px;
+            margin: auto;
+            
+        }
+
+        select, textarea{
+width: 100%;
+color: rgb(241, 230, 8);
+font-weight:bold;
+font-size: x-large;
+
+        }
+
+        button{
+            background-color: blue;
+            color: white;
+            font-size: larger;
+        }
+        label{
+            color: rgb(32, 30, 2);
+font-weight:bold;
+font-size: x-large;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <div class="container">
+        <div> 
+        <form action="home.html" method="get">
+
+            <label>Full Name: </label>
+            <input type="text" id="fullname" placeholder="Enter Full Name"/>
+
+
+        
+    </div>
+    <br><br>
+<div>
+    <label>Email: </label>
+            <input type="text" id="email" placeholder="Enter E-Mail"/>
+</div>
+<br><br>
+<div>
+<label for="password">Password: </label>
+            <input type="password" id="password" name=password placeholder="Enter Password" required/>
+ 
+    </div>
+    <br><br>
+    <div>
+<label>Age: </label>
+            <input type="number" id="age" placeholder="Enter Age"/>
+ 
+
+</div>
+<br><br>
+<div>
+<label>DOB: </label>
+            <input type="date" id="dob" placeholder="Enter Date Of Birth" required/>
+ 
+
+</div>
+<br><br>
+<div>
+<label>Telephone: </label>
+            <input type="tel" id="phone" placeholder="Enter Telephone"/>
+ 
+
+</div>
+<br><br>
+<div>
+<label>Experience: </label>
+            <input type="range" name="experience" min="1" max="25"/>
+ 
+
+</div>
+
+<br><br>
+
+<div>
+<label>Resume: </label>
+            <input type="file" name="resume"/>
+ 
+
+</div>
+
+
+<br><br>
+
+<div>
+    <label>Gender: </label>
+    <input type="radio" name="gender" value="male"/> Male
+    <input type="radio" name="gender" value="female"/> Female
+</div>
+
+<br><br>
+
+<div>
+    <label>Skills: </label>
+    <input type="checkbox" name="skills" value="Java"/> Java
+     <input type="checkbox" name="skills" value="HTML"/> HTML
+      <input type="checkbox" name="skills" value="CSS"/> CSS
+       <input type="checkbox" name="skills" value="Python"/> Python
+     
+</div>
+
+<br><br>
+
+<div>
+
+    <label>Country: </label>
+    <select name="country">
+        <option>India</option>
+        <option>Japan</option>
+        <option>Austraila</option>
+        <option>Germany</option>
+        <option>Italy</option>
+
+
+    </select>
+
+</div>
+
+<br><br>
+
+<div>
+    <label>Address: </label>
+    <textarea rows="5" cols="20" placeholder="Enter your Address"></textarea>
+</div>
+
+<br><br>
+<div>
+    <label>Search: </label>
+            <input type="search" placeholder="search"/>
+ 
+</div>
+<br><br>
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</div>
+</form>
+</body>
+</html>
